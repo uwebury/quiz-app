@@ -16,7 +16,7 @@ body {
 
 .card {
   margin: 20px 10%;
-  border: 5px solid #252629;
+  border: 1px solid #252629;
   padding: 3% 10%;
   scroll-margin-top: 100px;
   position: relative;
@@ -35,6 +35,20 @@ body {
 .categories {
   display: flex;
   padding-left: 0;
-  gap: 10 px;
-  list-style: "#";
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.categories__value {
+  padding: 5px 5px;
+}
+
+.button {
+  height: 2rem;
 }
