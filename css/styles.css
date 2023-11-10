@@ -33,3 +33,9 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+.categories {
+  display: flex;
+  padding-left: 0;
+  gap: 10 px;
+  list-style: "#";
+}
