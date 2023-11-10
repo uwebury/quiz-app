@@ -1,1 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column
+    font-family: system-ui;
+    margin: 0;
+  }
 
+  .header {
+    position: sticky;
+    top: 0;
+  }
