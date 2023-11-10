@@ -27,3 +27,9 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
