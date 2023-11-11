@@ -65,8 +65,17 @@ body {
   color: lightgrey;
 }
 
+.categories {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
 .categories__value {
-  padding: 5px 5px;
+  background-color: lightgray;
+  padding: 5px 14px;
+  border-radius: 5px;
+  border: solid;
 }
 
 .button {
