@@ -43,11 +43,13 @@ body {
 
 .nav {
   display: flex;
+  font-size: 1.5rem;
   padding: 0;
   justify-content: space-evenly;
   list-style: none;
   gap: 0.5rem;
   flex-wrap: wrap;
+  border-top: 1px solid lightgray;
 }
 
 .nav__link {
