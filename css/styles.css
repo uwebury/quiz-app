@@ -50,6 +50,10 @@ body {
   flex-wrap: wrap;
 }
 
+.nav__link {
+  color: lightgrey;
+}
+
 .categories__value {
   padding: 5px 5px;
 }
