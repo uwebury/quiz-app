@@ -12,6 +12,8 @@ body {
 .header {
   position: sticky;
   top: 0;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
 }
 
 .card {
