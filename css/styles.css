@@ -24,7 +24,6 @@ body {
   border-radius: 0.5rem;
   padding: 3% 10%;
   scroll-margin-top: 100px;
-  position: relative;
 }
 
 .add__bookmark {
@@ -55,6 +54,9 @@ body {
   flex-wrap: wrap;
   border-top: 1px solid lightgray;
   padding: 0.5rem;
+  position: sticky;
+  bottom: 0;
+  height: 40px;
 }
 
 .nav__link {
