@@ -31,7 +31,6 @@ body {
 .question {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .categories {
   display: flex;
