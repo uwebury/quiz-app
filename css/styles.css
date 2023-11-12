@@ -24,11 +24,15 @@ body {
   border-radius: 0.5rem;
   padding: 3% 10%;
   scroll-margin-top: 100px;
+  position: relative;
 }
 
 .add__bookmark {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  top: -0.5rem;
+  right: 1rem;
 }
 
 .question {
