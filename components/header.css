@@ -1,0 +1,7 @@
+.header {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+  z-index: 1;
+}

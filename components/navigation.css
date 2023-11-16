@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
+
+.nav__elements {
+  display: flex;
+  font-size: 1.5rem;
+  list-style: none;
+  gap: 7rem;
+  flex-wrap: wrap;
+}
+
+.nav__link {
+  color: lightgrey;
+}
