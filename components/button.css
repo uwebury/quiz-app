@@ -2,7 +2,7 @@
   height: 2rem;
   border-radius: 0.5rem;
   border: none;
-  background-color: rgb(0, 113, 227);
+  background-color: var(--color-action);
   color: white;
   font-size: 0.9rem;
 }
