@@ -26,12 +26,7 @@
   padding-left: 0;
   list-style: none;
   flex-wrap: wrap;
-}
-
-.categories {
-  display: flex;
   gap: 0.5rem;
-  flex-wrap: wrap;
 }
 
 .categories__value {
