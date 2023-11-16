@@ -1,6 +1,5 @@
 .nav {
   display: flex;
-  justify-content: space-evenly;
   position: sticky;
   bottom: 0;
   background-color: white;
@@ -11,10 +10,13 @@
   display: flex;
   font-size: 1.5rem;
   list-style: none;
-  gap: 7rem;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  flex: 1;
+  gap: 1rem;
 }
 
 .nav__link {
   color: lightgrey;
+  padding: 1.5rem;
 }
