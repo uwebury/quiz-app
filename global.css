@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-action: #0d00ff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+  margin: 0;
+}
