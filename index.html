@@ -12,15 +12,28 @@
     </header>
     <main>
       <section class="cards">
-        <article class="question">
-          <p>What property flips the axes in flexbox?</p>
+        <article class="card__question">
+          <h2>What property flips the axes in flexbox?</h2>
           <button type="button" class="button">Show answer</button>
           <p hidden>flex-direction</p>
-          <ul class="categories">
-            <li class="categories__value">#html</li>
-            <li class="categories__value">#flexbox</li>
-            <li class="categories__value">#css</li>
+          <ul class="card__categories">
+            <li class="card__categories-value">#html</li>
+            <li class="card__categories-value">#flexbox</li>
+            <li class="card__categories-value">#css</li>
           </ul>
+          <div class="card__button-bookmark">
+            <button class="bookmark" aria-label="bookmark" type="button">
+              <svg
+                class="bookmark__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 24 24"
+              >
+                <path
+                  d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
+                />
+              </svg>
+            </button>
+          </div>
         </article>
       </section>
     </main>

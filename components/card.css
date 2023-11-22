@@ -1,27 +1,22 @@
-.question {
+.card__question {
   margin: 20px 10%;
   border: 1px solid #252629;
   border-radius: 0.5rem;
   padding: 3% 10%;
   scroll-margin-top: 100px;
   position: relative;
-}
-
-.add__bookmark {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  top: -0.5rem;
-  right: 1rem;
-}
-
-.question {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.categories {
+.card__button-bookmark {
+  position: absolute;
+  right: 1rem;
+  top: -0.7rem;
+}
+
+.card__categories {
   display: flex;
   padding-left: 0;
   list-style: none;
@@ -29,7 +24,7 @@
   gap: 0.5rem;
 }
 
-.categories__value {
+.card__categories-value {
   background-color: lightgray;
   padding: 5px 14px;
   border-radius: 5px;
